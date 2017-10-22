@@ -1,0 +1,307 @@
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+articel:video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+
+
+
+
+
+
+@font-face { font-family: 'script';
+             src: url('font.TTF') format('truetype');
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: script, italic, sans-serif;
+}
+#main{
+    width:60%;
+    position: relative;
+    left:100px;    
+    opacity: 0.8;
+}
+
+#turtle img{
+    width:10%;
+}
+#turtle{
+    position: fixed;
+    top: 15%;
+    width:100%;
+}
+video{
+    width:50%;
+}
+iframe{
+    width:99%;
+    border-radius:5px 5px 5px 5px;
+}
+#innersearch input[type=text]{
+    background-color:#445544;
+    color:#558855;
+    font-size: 15pt;
+    position:fixed;
+    top: 15px;
+    left:120pt;
+    width:50%;
+    text-shadow: 1px 0px 1px #000000;
+    border: solid 1px #004400;
+    box-shadow:1px 0px 1px #000000;
+    border-radius: 5px 5px 5px 5px;
+}
+#innersearch input[type=text]:active:hover:focus{
+    background-color:#445544;
+    color:#558855;
+    font-size: 15pt;
+    position:fixed;
+    top: 15px;
+    left:120pt;
+    width:50%;
+    text-shadow: 1px 0px 1px #000000;
+    border: solid 1px #004400;
+    box-shadow:1px 0px 1px #000000;
+    border-radius: 5px 5px 5px 5px;
+    
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    
+    
+    
+    
+}
+#innersearch input[type=text]:focus{
+    color:white;
+    border: solid 2px #004400;
+    box-shadow:1px 1px 2px #000000;
+    text-shadow: 0px 0px 0px #000000;
+    width:60%;
+}
+#innersearch{
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:#446644;
+    height:auto;
+    color:black;
+    width:100%;
+    box-shadow: 1px 0px 5px #000000;
+    ::border-radius:0px 0px 10px 10px;
+    text-shadow: 1px 0px 1px #000000;
+
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#innersearch:hover{
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:#446644;
+    height:auto;
+    color:black;
+    width:100%;
+    box-shadow: 1px 0px 5px #000000;
+    ::border-radius:0px 0px 10px 10px;
+    text-shadow: 1px 0px 1px #000000;
+
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+#innersearch img{
+    position:fixed;
+    width: 100pt;
+}
+#mainsearch input[type=text]{
+    background-color:#445544;
+    font-size: 15pt;
+    color:white;
+    width:50%;
+    color:#558855;
+    text-shadow: 1px 0px 1px #000000;
+    border: solid 1px #004400;
+    box-shadow:1px 0px 1px #000000;
+    border-radius: 5px 5px 5px 5px;
+}
+#mainsearch input[type=text]:focus{
+    color:white;
+    border: solid 2px #004400;
+    box-shadow:1px 1px 2px #000000;
+    text-shadow: 0px 0px 0px #000000;
+    width:60%;
+}
+
+
+
+
+#mainsearch:hover{
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    position:fixed;
+    top:30%;
+    left:0px;
+    background-color:#446644;
+    height:auto;
+    color:white;
+    width:100%;
+    box-shadow: 1px 0px 5px #000000;
+    text-shadow: 1px 0px 1px #000000;  
+       
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+
+#mainsearch{
+    background-image:url("background.png");
+    background-repeat: no-repeat;
+    position:fixed;
+    top:30%;
+    left:0px;
+    background-color:#446644;
+    height:auto;
+    color:white;
+    width:100%;
+    box-shadow: 1px 0px 5px #000000;
+    text-shadow: 1px 0px 1px #000000;  
+    
+    
+    
+    
+    
+    
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+
+
+
+
+
+
+
+#articel video{
+    width:50%;
+    filter:saturate(400%);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+    
+
+#articel{
+    color:#110011;
+    box-shadow:1px 1px 2px #000000;
+    background-color:#E9E9E9;
+    border-radius: 2px 2px 2px 2px;
+    border: solid 2px green;
+    border-bottom:#000000;
+    border-left:#000000;
+    border-right:#000000;
+    text-align:left;
+    width:100%;
+    height: auto;
+    text-shadow: 1px 0px 1px #000000;
+    word-break: break-all;
+    
+
+    
+}
+#articel:hover{
+    box-shadow: 5px 5px 2px #000000;
+    text-shadow: 10px 5px 2px #000000;
+
+}
+
+#articel img{
+    width:50%;
+}
+
+
+
+
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
