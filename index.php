@@ -17,32 +17,10 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
-       <!-- <style>
-            body{background:url(turtle_background.png) no-repeat fixed;}
-        </style>-->
-    <script>
-        var textareas = document.getElementsByTagName('mainsearch');
-
-        for (i=0;i<textareas.length;i++){
-            // you can omit the 'if' if you want to style the parent node regardless of its
-            // element type
-            if (textareas[i].parentNode.tagName.toString().toLowerCase() == 'div') {
-                textareas[i].onfocus = function(){
-                    this.parentNode.style.borderStyle = 'solid';
-                }
-                textareas[i].onblur = function(){
-                    this.parentNode.style.borderStyle = 'dashed';
-                }
-            }
-        }
-    </script>
     </head>
     <body>
     <video playsinline autoplay muted loop id="bgvid">
-        <!--<source src="intro.mp4" type="video/mp4"> -->
-        <!--<source src="back.mp4" type="video/mp4">-->
         <source src="background.mp4" type="video/mp4">
-       <!--<source src="http://cdn.earthtv.com/a98e8c59-3471-306b-9cf9-6c119bdf160f.mp4?token=535669901bd65faece011d62" type="video/mp4">-->
     </video>
 
         <?php
